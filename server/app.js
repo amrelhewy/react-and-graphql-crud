@@ -13,4 +13,4 @@ app.use('/graphql',graphqlHTTP({
 
 }))  //when u visit this route express doesnt know how to handle requests of graphql but express-graphql does so we hand it to them
 
-app.listen(4000,()=>{console.log('Server started on port 4000')});
+app.listen(4000,()=>{console.log('Server started on port 40000')});
